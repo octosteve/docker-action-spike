@@ -1,5 +1,6 @@
 #!/bin/bash
 
+env
 echo "Loading contents of $GITHUB_WORKSPACE"
 ls $GITHUB_WORKSPACE
 
