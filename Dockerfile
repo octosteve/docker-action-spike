@@ -1,5 +1,5 @@
-FROM alpine:latest
+FROM ubuntu:latest
 
-COPY ./bin/ /usr/local/bin/
+COPY ./bin/run.sh /usr/local/bin/
 
 ENTRYPOINT ["/usr/local/bin/run.sh"]
