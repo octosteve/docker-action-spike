@@ -1,11 +1,12 @@
 #!/bin/bash
 
 env
+pwd
 echo "Loading contents of $GITHUB_WORKSPACE"
-ls $GITHUB_WORKSPACE
+ls -l $GITHUB_WORKSPACE
 
 echo "Loading Action directory"
-ls $GITHUB_ACTION_PATH
+ls -l $GITHUB_ACTION_PATH
 
 echo "Loading current directory"
-ls .
+ls -l .
